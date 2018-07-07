@@ -12,5 +12,5 @@ input[type="number"] {
 }
 
 div {
-  display: inline-flex;
+  display: inline-block;
 }
