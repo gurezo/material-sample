@@ -11,3 +11,6 @@ input[type="number"] {
   -moz-appearance: textfield;
 }
 
+div {
+  display: inline-flex;
+}
