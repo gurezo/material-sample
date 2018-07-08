@@ -11,6 +11,20 @@ input[type="number"] {
   -moz-appearance: textfield;
 }
 
-div {
-  display: inline-block;
+span {
+  margin: 0;
+  padding: 0;
+  line-height: 50%;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-spin {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
 }
