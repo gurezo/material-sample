@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,17 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'app';
+  constructor(
+    private router: Router
+  ) {
+
+  }
+
+  onPage1() {
+    this.router.navigate(['/page1']);
+  }
+
+  onPage2() {
+    this.router.navigate(['/page2']);
+  }
 }
